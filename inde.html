@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Love Note</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="note-container">
+        <div class="heart">❤️</div>
+        <p class="note-text">
+            I love you so much more than you'll ever know.<br>
+            You're the only person who makes me feel like this.
+        </p>
+        <button class="next-button" onclick="nextMessage()">Next</button>
+    </div>
+
+    <script>
+        function nextMessage() {
+            document.querySelector('.note-text').innerHTML = 
+                "You're my happiness, my safe place, and my favorite person. 💖";
+        }
+    </script>
+
+</body>
+</html>
